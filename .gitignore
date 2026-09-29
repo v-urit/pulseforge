@@ -1,0 +1,42 @@
+# Binaries and build artifacts
+backend/api-bin
+backend/worker-bin
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test artifacts
+*.out
+*.test
+coverage.txt
+
+# Go cache
+.cache/
+
+# Node.js & Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.pnpm-store/
+
+# Environment files with secrets
+.env
+!.env.example
+
+# IDE / OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker data volumes
+postgres_data/
+redis_data/
